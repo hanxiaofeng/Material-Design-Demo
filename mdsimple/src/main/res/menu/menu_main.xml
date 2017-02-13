@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/message"
+        android:orderInCategory="10"
+        android:title="消息"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/setting"
+        android:orderInCategory="20"
+        android:title="设置"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="30"
+        android:title="关于"
+        app:showAsAction="never" />
+</menu>
